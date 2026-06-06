@@ -1,84 +1,130 @@
-# BUS5001-Assessment3
-# BUS5001 Assessment 3 — Robotic Process Automation, AI and Cloud-Enabled ESG Analytics
+# BUS5001 Assessment 3 – Robotic Process Automation, AI and Cloud-Enabled ESG Analytics
 
-## Student Information
 
-| Field | Detail |
-|-------|--------|
-| Subject | BUS5001 |
-| Assessment | Assessment 3 |
-| Due Date | 11:59 pm AEST, Sunday 7th June 2026 |
-| Weighting | 40% |
+## Repository Overview
 
----
+This repository contains supporting evidence, screenshots, experiment logs, prompt outputs, and evaluation materials used for Assessment 3.
 
-## Repository Purpose
-
-This repository contains evidence, experiment logs, screenshots, and supporting files for the four questions in BUS5001 Assessment 3. It is submitted alongside the written report.
+The assessment investigates the use of cloud-based AI technologies, conversational agents, large language models, and AI-powered productivity tools in ESG (Environmental, Social and Governance) contexts.
 
 ---
 
 ## Repository Structure
 
-```
-BUS5001-Assessment3/
-│
-├── README.md                        ← This file
-│
-├── Q1_Chatbot/
-│   ├── README.md                    ← Q1 evidence summary
-│   ├── Flow_Diagram.png             ← Dialogflow CX conversation flow diagram
-│   ├── Intent_Report_Water_Leak.png ← Intent with training phrases
-│   ├── Entity_Building.png          ← @building custom entity
-│   ├── Entity_Severity.png          ← @severity custom entity
-│   ├── Location_Page.png            ← Location page configuration
-│   ├── Severity_Page.png            ← Severity page with routing logic
-│   ├── Description_Page.png         ← Description page configuration
-│   ├── Escalation_Page.png          ← Critical escalation page
-│   ├── Confirmation_Page.png        ← Confirmation page configuration
-│   ├── Test_Case_1.png              ← Standard flow test (High severity)
-│   └── Test_Case_2.png              ← Critical escalation test
-│
-├── Q3_LLM_Triage/
-│   ├── README.md                    ← Q3 experiment log summary
-│   ├── Prompt_Template.md           ← Improved ESG triage prompt (v2.0)
-│   ├── Message1_Output.json         ← LLM output: water leak
-│   ├── Message2_Output.json         ← LLM output: supplier policy
-│   ├── Message3_Output.json         ← LLM output: accessibility blocked
-│   └── Baseline_Comparison.md       ← Comparison vs Hugging Face zero-shot
-│
-├── Q4_NotebookLM/
-│   ├── README.md                    ← Q4 evaluation notes
-│   ├── Scenario1.png                ← Student exam prep screenshot
-│   ├── Scenario2.png                ← Researcher policy synthesis
-│   ├── Scenario3.png                ← Lecturer governance workshop
-│   ├── Scenario4.png                ← MBA Scope 3 briefing
-│   └── Evaluation_Notes.md          ← Critical analysis summary
-│
-└── References/
-    └── Sources.md                   ← APA 7 reference list
-```
+### Q1_ESG_Chatbot
+
+Contains evidence for the Dialogflow CX ESG Sustainability Incident Reporting Assistant.
+
+**Contents**
+- Chatbot flow screenshots
+- Intent screenshots
+- Entity and parameter screenshots
+- Route and escalation screenshots
+- Conversation test screenshots
+- Flow diagram
+- Demonstration evidence
+
+**Chatbot Use Case – Sustainability Incident Reporting Assistant**
+
+The chatbot enables employees to report sustainability-related incidents such as:
+- Water leaks
+- Energy waste
+- Facilities issues
+- Environmental concerns
+
+The chatbot captures incident details, classifies urgency, and routes reports through an escalation pathway where appropriate.
 
 ---
 
-## What Each Section Contains
+### Q2_Cloud_Security
 
-### Q1 — ESG Sustainability Incident Chatbot (Dialogflow CX)
-Screenshots of the built chatbot including intents, entities, pages, routes, and two test case transcripts. The chatbot handles water leak incident reporting with critical severity escalation.
+Contains analysis of a recent cloud security incident.
 
-### Q3 — LLM ESG Message Triage
-The improved prompt template (v2.0), three JSON outputs from running ESG messages through the LLM, and a comparison table against a Hugging Face zero-shot baseline classifier.
+**Contents**
+- Incident summary
+- Cloud architecture discussion
+- Shared responsibility analysis
+- Security recommendations
+- Supporting diagrams
 
-### Q4 — NotebookLM Evaluation
-Screenshots from four academic scenarios tested in NotebookLM, plus evaluation notes covering accuracy, usefulness, and limitations.
+**Learning Focus**
+- Cloud deployment models
+- Security governance
+- Identity and access management
+- Incident response
+- Risk mitigation
 
 ---
 
-## How to Navigate
+### Q3_LLM_Triage
 
-- For chatbot evidence → go to `Q1_Chatbot/`
-- For LLM prompt and outputs → go to `Q3_LLM_Triage/`
-- For NotebookLM screenshots → go to `Q4_NotebookLM/`
-- For references → go to `References/`
+Contains prompt engineering and testing artefacts for ESG operational message triage.
 
-Each folder has its own `README.md` explaining the contents.
+**Contents**
+- Prompt_Template.md
+- Message1_Output.json
+- Message2_Output.json
+- Message3_Output.json
+- Baseline_Comparison.md
+
+**Objective**
+
+Demonstrate how a Large Language Model can classify ESG operational messages and recommend:
+- Issue category
+- Urgency level
+- Escalation requirements
+- Recommended team
+- Follow-up actions
+
+---
+
+### Q4_NotebookLM
+
+Contains evaluation evidence for Google NotebookLM.
+
+**Contents**
+- Scenario1.png
+- Scenario2.png
+- Scenario3.png
+- Scenario4.png
+- Evaluation_Notes.md
+
+**Evaluation Areas**
+- Document summarisation
+- Research support
+- Question answering
+- Comparative analysis
+
+---
+
+## Technologies Used
+
+- Google Dialogflow CX
+- Google Cloud Platform (GCP)
+- Google NotebookLM
+- Large Language Models (LLMs)
+- GitHub
+
+---
+
+## Ethical Considerations
+
+The solutions developed in this assessment considered:
+- Privacy protection
+- Responsible AI usage
+- Transparency
+- Human oversight
+- Accessibility
+- Data minimisation
+- Governance and accountability
+---
+
+## Assessment Deliverables
+
+This repository supports:
+- Q1 ESG Chatbot Implementation
+- Q2 Cloud Security Evaluation
+- Q3 LLM Message Triage
+- Q4 NotebookLM Evaluation
+
+The repository is intended to provide supporting evidence for the written report and associated assessment artefacts.
