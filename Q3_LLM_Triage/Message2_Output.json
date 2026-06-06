@@ -1,0 +1,12 @@
+{
+  "issue_category": "Procurement",
+  "urgency": "MEDIUM",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "Procurement",
+  "escalation_reason": "Potential supplier non-compliance with sustainability requirements requires investigation and verification.",
+  "data_sensitivity_risk": "MEDIUM",
+  "brief_summary": "A supplier may not be complying with organisational sustainability policy requirements.",
+  "confidence_score": 0.91,
+  "ambiguity_flag": "N"
+}

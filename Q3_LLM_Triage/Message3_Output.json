@@ -1,0 +1,12 @@
+{
+  "issue_category": "Accessibility",
+  "urgency": "HIGH",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "Facilities",
+  "escalation_reason": "Accessibility barrier has remained unresolved for two days and may create compliance and inclusion risks.",
+  "data_sensitivity_risk": "LOW",
+  "brief_summary": "An accessible entrance near the main building has been blocked for two days.",
+  "confidence_score": 0.97,
+  "ambiguity_flag": "N"
+}

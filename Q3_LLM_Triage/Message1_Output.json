@@ -1,0 +1,12 @@
+{
+  "issue_category": "Facilities",
+  "urgency": "HIGH",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "Facilities",
+  "escalation_reason": "Active water leak has been ongoing all morning and may result in water waste, property damage, and operational disruption.",
+  "data_sensitivity_risk": "LOW",
+  "brief_summary": "A water leak in Building C has been reported as ongoing since the morning.",
+  "confidence_score": 0.95,
+  "ambiguity_flag": "N"
+}
